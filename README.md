@@ -1,178 +1,183 @@
-# How to Contribute During Hacktoberfest
+<h1 align="center">
+  🌍 OpenGov Africa Hacktoberfest 2025
+</h1>
 
-Welcome to the **OpenGov Africa Hacktoberfest Repository**!  
-This repository contains all active Hacktoberfest issues for contributors participating across OpenGov Africa projects.
+<p align="center">
+  <b>Empowering open source for civic impact across Africa and beyond.<br>
+  Quality contributions. Real change. #Hacktoberfest2025</b>
+</p>
 
-Please follow these steps carefully to ensure your work qualifies under **Hacktoberfest’s official participation rules**.
-
----
-
-## Why This Matters
-
-Hacktoberfest celebrates quality open-source contributions — not quantity.  
-To ensure your work counts toward Hacktoberfest, please remember:
-
-1. **Your Pull Requests (PRs) or Merge Requests (MRs) must be in a repository tagged with the `hacktoberfest` topic, or have the `hacktoberfest-accepted` label.**
-
-2. **Repositories created solely for Hacktoberfest that do not benefit the wider open-source community, or that encourage overly simplistic contributions (such as adding your name to a list or random content), will be excluded.**
-
-In other words:  
-We’re here to **build meaningful tools, designs, and data projects for the African civic space** — not filler content.  
-**Quality is key.**
+<p align="center">
+  <a href="https://hacktoberfest.com/"><img src="https://img.shields.io/badge/Hacktoberfest-2025-blueviolet?style=for-the-badge" alt="Hacktoberfest 2025"></a>
+  <a href="https://github.com/OpenGovAfrica/hacktoberfest/issues"><img src="https://img.shields.io/github/issues/OpenGovAfrica/hacktoberfest?style=for-the-badge" alt="Issues"></a>
+  <a href="https://discord.gg/Eswe4cvvMM"><img src="https://img.shields.io/discord/812464934655754271?style=for-the-badge&label=Community&color=7289DA" alt="Discord Community"></a>
+</p>
 
 ---
 
-## Step 1: Pick or Get Assigned an Issue
-1. Browse the open issues in **this repository**: [OpenGovAfrica/hacktoberfest](https://github.com/OpenGovAfrica/hacktoberfest/issues).
-2. Find an issue that matches your skill or interest (Design, Tech, Marketing, Research, etc.).
-3. Comment under the issue to indicate your interest.
-4. Wait for a maintainer to **assign the issue to you** before starting work.
-5. Confirm that the issue carries the label **`hacktoberfest`** or **`hacktoberfest-accepted`**.
+## 🚀 Table of Contents
+
+- [About Hacktoberfest](#about-hacktoberfest)
+- [How to Participate](#how-to-participate)
+- [Workflow Example](#workflow-example)
+- [Best Practices](#best-practices)
+- [Inclusivity & Values](#inclusivity--values)
+- [Creating Issues](#creating-issues)
+- [Resources & Quick Links](#resources--quick-links)
+- [FAQ](#faq)
+- [Announcements & Social](#announcements--social)
+- [License](#license)
+- [Credits & Thanks](#credits--thanks)
 
 ---
 
-## Step 2: Work in the Correct Team Repository
-Actual contributions (code, design, content, research, etc.) should be done in the appropriate **OpenGov Africa team repository**.
+## About Hacktoberfest
 
-| Area | Repository | Example Reference |
-|-------|-------------|-------------------|
-| Design | [OpenGovAfrica/design](https://github.com/OpenGovAfrica/design) | `Related to OpenGovAfrica/hacktoberfest#12` |
-| Tech / Development | [OpenGovAfrica/tech](https://github.com/OpenGovAfrica/tech) | `Related to OpenGovAfrica/hacktoberfest#12` |
-| Marketing | [OpenGovAfrica/marketing](https://github.com/OpenGovAfrica/marketing) | `Related to OpenGovAfrica/hacktoberfest#12` |
-| Research & Data | [OpenGovAfrica/research](https://github.com/OpenGovAfrica/research) | `Related to OpenGovAfrica/hacktoberfest#12` |
-
-If you are working on a **design issue**, for example:
-- Go to the **Design Repo**
-- Create a new branch
-- Complete your assigned task
-- Commit and push your changes there
+> **Hacktoberfest** is an annual celebration of quality open source contributions. It’s about making impactful, inclusive improvements—not just adding numbers. This repository connects you with real-world, high-value issues to drive open governance, transparency, and civic tech growth in Africa.
 
 ---
 
-## Step 3: Create a Pull Request (PR)
-When your work is ready for review:
+## How to Participate
 
-1. Open a **Pull Request (PR)** in the same team repository.  
-2. In your PR description:
-   - Reference the related Hacktoberfest issue from this repo.  
-     Example:  
-     ```
-     Fixes OpenGovAfrica/hacktoberfest#12
-     ```
-3. Add the label **`hacktoberfest-accepted`** to your PR.  
-   This is required for your PR to count toward Hacktoberfest.
-4. Request a review from your team lead or assigned reviewer.
+### 1. Choose Your Mission
 
----
+- Browse [Open Issues »](https://github.com/OpenGovAfrica/hacktoberfest/issues)
+- Find something that matches your skills (Tech, Design, Data, Docs, Marketing, Research, etc.)
+- Comment to express interest.
+- **Wait to be assigned** by a maintainer.
 
-## Step 4: After Review
-- Once your PR is approved and merged:
-  - The related issue in this **Hacktoberfest repo** will be closed.
-  - Your PR will automatically count as a valid **Hacktoberfest contribution** (per the rules above).
-  - Your contribution will help improve open governance tools, data, and visibility across Africa.
+### 2. Contribute in the Right Repo
 
----
+When assigned, work in the target team repository:
 
-## Example Workflow
+| Area / Team    | Repo Link                                   | Reference Example                         |
+|----------------|---------------------------------------------|-------------------------------------------|
+| Design         | [design](https://github.com/OpenGovAfrica/design)           | `Related to OpenGovAfrica/hacktoberfest#12`|
+| Tech/Dev       | [tech](https://github.com/OpenGovAfrica/Tech-Dev-)          | `Related to OpenGovAfrica/hacktoberfest#12`|
+| Marketing      | [marketing](https://github.com/OpenGovAfrica/marketing)     | `Related to OpenGovAfrica/hacktoberfest#12`|
+| Research/Data  | [research](https://github.com/OpenGovAfrica/Research-Data)  | `Related to OpenGovAfrica/hacktoberfest#12`|
 
-**Scenario:** You are assigned Issue #12 in this repo titled *“Design a new event banner.”*
+_Note: If you have a new idea or don't see a dedicated repo, suggest one!_
 
-1. Comment on Issue #12: “I’d like to work on this.”  
-2. Wait for a maintainer to assign it to you.  
-3. In the [Design Repo](https://github.com/OpenGovAfrica/design), create a branch and complete your design.  
-4. Open a PR titled:  "Design: Event Banner (Fixes OpenGovAfrica/hacktoberfest#12)"
-5. Add the **`hacktoberfest-accepted`** label to your PR.  
-6. Request a review from your team lead.  
-7. Once merged, your PR will count toward your Hacktoberfest goal.
+### 3. Make Your Pull Request (PR) Shine
+
+- Open a PR in the **team repo** (not this one)
+- Reference the assigned issue (`Fixes OpenGovAfrica/hacktoberfest#[issue-number]`)
+- Add the label `hacktoberfest-accepted` (ask a maintainer if you can't)
+- Request a review from your lead
+
+### 4. Get Reviewed & Celebrate
+
+- PRs are reviewed, merged, and help auto-close the issue in this repo
+- Each merged, eligible PR gets you closer to your Hacktoberfest goal—and civic impact!
 
 ---
 
-## Common Mistakes to Avoid
-- Do **not** open PRs directly in this Hacktoberfest repo — only issues live here.  
-- Do **not** start work before being assigned to an issue.  
-- Always **reference the issue number** from this repo in your PR description.  
-- Always ensure your issue or PR has either the **`hacktoberfest`** or **`hacktoberfest-accepted`** label.  
-- Avoid trivial or spammy contributions — these will be rejected and may disqualify you.
+## Workflow Example
+
+**Suppose you’re assigned Issue #12, “Design a new event banner.”**
+
+1. Comment: “I’d like to work on this.”
+2. Wait to be assigned.
+3. Complete your work in the [Design Repo](https://github.com/OpenGovAfrica/design).
+4. Open a PR: `Design: Event Banner (Fixes OpenGovAfrica/hacktoberfest#12)`
+5. Add `hacktoberfest-accepted`
+6. Request a review.
+7. When merged, your PR counts!
 
 ---
 
-## Why This Workflow Helps You Qualify
-Following this structure ensures that:
-- Your work takes place in repositories tagged with `hacktoberfest`.
-- Your PRs are linked to issues with **clear purpose and community value**.
-- You meet Hacktoberfest’s quality and labeling requirements.
-- You earn verified credit for meaningful, reviewable contributions.
+## Best Practices
 
-By contributing through this workflow, you are **helping build open-source civic tools and data for Africa**, while ensuring your work fully qualifies for Hacktoberfest recognition.
-
-### Creating Your own Issues During Hacktoberfest
-
-Contributors are welcome to create their own issues **if**:
-- The issue directly improves or supports an OpenGov Africa project.
-- It is meaningful, specific, and has clear value (for example, improving design, documentation, or code quality).
-- It can be a fresh addition or idea or it can reference an existing issue or feature in the main OpenGov Africa repos.
-
-Once your issue is created:
-1. Add enough detail for others/maintainers to understand what you’re fixing, creating, or improving.
-2. Reference the related main repo issue or task (if applicable).
-3. Work on your changes in the appropriate repo ie. design tasks in design repo; marketing in marketing etc. Don't see a repo you think we need? **Just ask and tell us why & it can be created.**
-4. Submit a PR and request review.
-5. A maintainer will review your PR and, if approved, tag it as **`hacktoberfest-accepted`**.
-
-This ensures your contribution qualifies under Hacktoberfest’s rules:
-- PRs must be in a repo tagged with the **“hacktoberfest”** topic or have the **“hacktoberfest-accepted”** label.
-- Low-quality or spammy PRs are **not counted**.
----
-
-## About OpenGov Africa
-We are a community-driven, open source organization focused on:
-- **Transparency**  
-- **Accountability**  
-- **Digital inclusion**  
-- **Governance innovation**  
-
-Our work cuts across **civic tech**, **open data**, **community organizing**, and **sustainable digital transformation** in Africa, but our community is global.  
-
----
-## Other Information
-
-### 1. Learn About Us
-Start by exploring our [Org Wide Community Drive](https://drive.google.com/drive/folders/1EF5yA7_0STfUdrRYWvRItOtY95bhVVQS).  
-You’ll find background materials, project history, and reference docs. Want to make it better? You're welcome.  
+- **Quality over quantity:** Focus on meaningful contributions.
+- **Respect assignments:** Only begin when an issue is assigned to you.
+- **Clear communication:** Reference issues, explain changes in PRs.
+- **Read the `CONTRIBUTING.md` and Code of Conduct.**
+- **Be open to feedback:** Reviews help you grow.
+- **Keep your work accessible:** Use alt text, readable docs, and inclusive language.
+- **No spammy PRs:** Low-value edits will be rejected.
 
 ---
 
-### 2. Join the Community
-- [Discord](https://discord.gg/Eswe4cvvMM) → Introduce yourself, join subteams, and find support.  
-- [GitHub Discussions](https://github.com/OpenGovAfrica/OpenGovAfrica/discussions) → Ask questions, share ideas.  
-- [General Contributor Form](https://forms.gle/63BwMW3r7MxuJGYE6) → Fill this to get added to GitHub teams and subteams.  
+## Inclusivity & Values
+
+OpenGov Africa stands for:
+
+- 🟢 **Transparency, Accountability, Inclusion, Innovation**
+- 🤝 Welcoming all—regardless of background or skill. Code, design, docs, outreach, and more are always valued.
+- 🦾 Safe, respectful collaboration—never discriminate, always support.
+
+_Read the [OpenGov Africa Code of Conduct](https://github.com/OpenGovAfrica/OpenGovAfrica/blob/main/CODE_OF_CONDUCT.md)_.
 
 ---
 
-### 3. Review the Roadmap
-Check our **[90-Day Roadmap](https://docs.google.com/document/d/13ELP1Azq7UFlbLQ0nIKrirszMJaRBs9qhlVLIlMij1s/edit?usp=drivesdk)** to see what we’re working on right now and where help is most needed.  
+## Creating Issues
+
+Have a new idea to add value? Open an issue if:
+
+- It clearly supports/improves an OpenGov Africa project
+- You provide enough details for others to understand and collaborate
+- It goes beyond trivial tasks (typos or filler)
+
+**Process:**
+
+1. Open an issue with clear context
+2. Reference any related tasks
+3. Work in the team repo, open a PR, and ask for review
+4. PR will be reviewed, merged, and labeled as `hacktoberfest-accepted`
 
 ---
 
-### 4. Become a Maintainer
-We’re actively looking for **maintainers** to help guide projects and mentor contributors. Maintainers ensure issues are scoped, PRs are reviewed, and contributors feel supported.  
-If you’d like to step up, mention it in the Contributor Form, in an issue or on Discord.  
+## Resources & Quick Links
+
+- 🌐 **Org Community Drive:** [Reference Material & Docs](https://drive.google.com/drive/folders/1EF5yA7_0STfUdrRYWvRItOtY95bhVVQS)
+- 💬 **Discord:** [Join & Chat](https://discord.gg/Eswe4cvvMM)
+- 💡 **GitHub Discussions:** [Ask & Engage](https://github.com/OpenGovAfrica/OpenGovAfrica/discussions)
+- 📝 **Contributor Form:** [Join Teams](https://forms.gle/63BwMW3r7MxuJGYE6)
+- 📅 **90-Day Roadmap:** [Current Priorities](https://docs.google.com/document/d/13ELP1Azq7UFlbLQ0nIKrirszMJaRBs9qhlVLIlMij1s/edit?usp=drivesdk)
+- 🌟 **Maintainer Interest:** Mention in the form or on Discord!
 
 ---
 
-## Announcements
-- Hacktoberfest 2025 participation details are live here and on:  
-  - [GitHub Announcement](https://github.com/OpenGovAfrica/.github/discussions/2%60)  
-  - [LinkedIn Announcement](https://www.linkedin.com/feed/update/urn:li:activity:7379756527324286976)  
+## FAQ
+
+**Q: Can non-coders join?**  
+A: Absolutely—designers, writers, researchers, translators, community managers are welcome!
+
+**Q: What counts for Hacktoberfest?**  
+A: PRs merged in repos with the `hacktoberfest` topic or labeled `hacktoberfest-accepted`.
+
+**Q: How do I know a repo is eligible?**  
+A: Check its “Topics” or ask a maintainer.
+
+**Q: Where can I get help?**  
+A: Use Discord, GitHub Discussions, or tag a maintainer on issues.
 
 ---
 
-## Hashtags
-When sharing your contributions, use:  
-`#Hacktoberfest2025 #OpenGovAfrica #OpenSource #CivicTech
+## Announcements & Social
+
+- [Hacktoberfest 2025 on GitHub](https://github.com/OpenGovAfrica/.github/discussions/2)
+- [LinkedIn Announcement](https://www.linkedin.com/feed/update/urn:li:activity:7379756527324286976)
+
+Share your contributions:  
+`#Hacktoberfest2025 #OpenGovAfrica #OpenSource #CivicTech`
 
 ---
 
-## Thank You
-Hacktoberfest is about community, mentorship, and open collaboration.  
-By contributing to OpenGov Africa, you’re helping build a more transparent, accountable, and inclusive future for Africa — and the world.  
+## License
+
+Distributed under the [MIT License](./LICENSE).
+
+---
+
+## Credits & Thanks
+
+This project is built by a global, diverse, and welcoming community. Thank you for making civic tech better—one contribution at a time!
+
+---
+
+<p align="center"><i>
+OpenGov Africa — Transparent, Accountable, Innovative, Inclusive.<br>
+Celebrate Hacktoberfest. Make real change.
+</i></p>
