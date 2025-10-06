@@ -147,11 +147,11 @@ A: Absolutely—designers, writers, researchers, translators, community managers
 **Q: What counts for Hacktoberfest?**  
 A: PRs merged in repos with the `hacktoberfest` topic or labeled `hacktoberfest-accepted`.
 
-**Q: How do I know a repo is eligible?**  
-A: Check its “Topics” or ask a maintainer.
-
 **Q: Where can I get help?**  
 A: Use Discord, GitHub Discussions, or tag a maintainer on issues.
+
+**Q: How do I know a repo is eligible?**  
+A: Check its “Topics” or ask a maintainer.
 
 ---
 
